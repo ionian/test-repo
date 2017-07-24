@@ -1,4 +1,4 @@
-# Ignore everything
+ Ignore everything
 /*
 # ...even if they are in subdirectories
 #!*/
@@ -6,4 +6,6 @@
 
 # But not these files/directories...
 !.gitignore
-!file1
+!dir1
+!dir1/*
+!dir1/*/*
